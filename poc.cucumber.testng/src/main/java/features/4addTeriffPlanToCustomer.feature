@@ -1,7 +1,7 @@
 @AddTeriffPlansToCustomerPage
-Feature: Add Teriff Plans feature test 
+Feature: Add Teriff Plan to Customer feature test 
 
-Scenario: Validate add teriff plans functionality 
+Scenario: Validate add teriff plan to customer functionality 
 
 	Given user opens up the browser and login
 	When click on left three bar icon

@@ -47,28 +47,10 @@ public class LoginPageClass extends TestBase {
 	}
 	
     public HomePage login(String uname, String pwd) {
-    	
-		
-		/*
-		 * driver.findElement(By.xpath("//input[@name='uid']")).sendKeys(uname);
-		 * driver.findElement(By.xpath("//input[@name='password']")).sendKeys(pwd);
-		 * driver.findElement(By.xpath("//input[@name='btnLogin']")).click();
-		 */
-		
-    	//boolean user = username.isEnabled();
-    	//System.out.println("username textbox is enabled: "+user);
-    	 
-    	getUsername().sendKeys(uname);
+       	getUsername().sendKeys(uname);
     	getPassword().sendKeys(pwd);
     	getLoginButton().click();
-    	
-    	
-		/*
-		 * username.sendKeys(uname); password.sendKeys(pwd); LoginButton.click();
-		 */
-		 
-		 
-    	
+     	
     	return new HomePage();
     }
 }

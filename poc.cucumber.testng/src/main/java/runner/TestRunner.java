@@ -11,8 +11,8 @@ import cucumber.api.testng.CucumberFeatureWrapper;
 import cucumber.api.testng.TestNGCucumberRunner;
 
 @CucumberOptions(
-        features = "F:\\ws_1\\poc.cucumber.testng\\src\\main\\java\\features", 
-     //   tags = {"~@Homepage", "~@AddCustomer", "~@AddTeriffPlansPage","@AddTeriffPlansToCustomerPage"},
+        features = "..\\poc.cucumber.testng\\src\\main\\java\\features", 
+     //   tags = {"~@Homepage", "~@AddCustomer", "~@AddTeriffPlansPage","@AddTeriffPlansToCustomerPage","~@PayBillingPage"},
         glue = {"stepDefinitions"},
       
         format = {
@@ -21,6 +21,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
                 "json:target/cucumber-reports/CucumberTestReport.json",
                 "rerun:target/cucumber-reports/rerun.txt"
                  },
+        plugin = "json:target/cucumber-reports/CucumberTestReport.json",
        
         monochrome = true,
         strict = true,

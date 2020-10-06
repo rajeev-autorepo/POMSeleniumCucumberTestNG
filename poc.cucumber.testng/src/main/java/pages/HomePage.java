@@ -70,4 +70,12 @@ public class HomePage extends TestBase {
 		return new AddCustomer();
 	}
 	
+	public void clickOnThreeBars() {
+		HamburgerIntoLeftMenu.click();
+	}
+	
+	public void clickOnTelecomMenu() {
+		TelecomMenu.click();
+	}
+	
 }

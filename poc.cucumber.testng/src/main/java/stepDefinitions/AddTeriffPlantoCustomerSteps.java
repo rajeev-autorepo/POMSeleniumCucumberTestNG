@@ -35,12 +35,11 @@ public class AddTeriffPlantoCustomerSteps extends TestBase {
 
 	@When("^click on left three bar icon$")
 	public void click_on_left_three_bar_icon() throws Throwable {
-		homepage = new HomePage();
-		homepage.verifyTelecomPageTitle();
-	//	addTeriffPlan = new AddTeriffPlans();
-	//	addTeriffPlan.clickOnThreeBars();
-	//	Thread.sleep(2000);
 		
+		  homepage = new HomePage();
+		  homepage.clickOnTelecomMenu();
+		//  homepage.clickOnThreeBars();
+		 
 	}
 
 	@Then("^user click on Add Teriff Plan to Customer menu item$")
@@ -95,9 +94,6 @@ public class AddTeriffPlantoCustomerSteps extends TestBase {
 	public void select_the_radio_button_and_click_on_add_teriff_plan_to_customer_button() throws Throwable {
 		addCustomer = new AddCustomer();
 		addCustomer.closeAds();
-		TestBase.scrollToViewElement(addTPtoCustomer.radiobutton());
-		
-		addTPtoCustomer.clickOnRadioButton();
 		addTPtoCustomer.clickOnAddTeriffPlantoCustomerButtonAfterRB();
 			  
 	}

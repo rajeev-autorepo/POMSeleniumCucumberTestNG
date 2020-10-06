@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="145622" started-at="2020-10-05T16:45:50Z" finished-at="2020-10-05T16:48:15Z">
+  <suite name="Default suite" duration-ms="157605" started-at="2020-10-06T16:05:19Z" finished-at="2020-10-06T16:07:57Z">
     <groups>
       <group name="cucumber">
         <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@69930714]" name="feature" class="runner.TestRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="145622" started-at="2020-10-05T16:45:50Z" finished-at="2020-10-05T16:48:15Z">
+    <test name="Default test" duration-ms="157605" started-at="2020-10-06T16:05:19Z" finished-at="2020-10-06T16:07:57Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@69930714]" name="setUpClass" is-config="true" duration-ms="518" started-at="2020-10-05T16:45:50Z" finished-at="2020-10-05T16:45:50Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@69930714]" name="setUpClass" is-config="true" duration-ms="437" started-at="2020-10-06T16:05:19Z" finished-at="2020-10-06T16:05:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@69930714]" name="feature" duration-ms="21159" started-at="2020-10-05T16:45:50Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-05T16:46:12Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@69930714]" name="feature" duration-ms="20324" started-at="2020-10-06T16:05:20Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-06T16:05:40Z">
           <params>
             <param index="0">
               <value>
@@ -25,7 +25,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@69930714]" name="feature" duration-ms="39606" started-at="2020-10-05T16:46:12Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-05T16:46:51Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@69930714]" name="feature" duration-ms="42369" started-at="2020-10-06T16:05:40Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-06T16:06:22Z">
           <params>
             <param index="0">
               <value>
@@ -36,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@69930714]" name="feature" duration-ms="35376" started-at="2020-10-05T16:46:51Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-05T16:47:27Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@69930714]" name="feature" duration-ms="38495" started-at="2020-10-06T16:06:22Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-06T16:07:01Z">
           <params>
             <param index="0">
               <value>
@@ -47,32 +47,20 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@69930714]" name="feature" duration-ms="48445" started-at="2020-10-05T16:47:27Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-05T16:48:15Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@69930714]" name="feature" duration-ms="12210" started-at="2020-10-06T16:07:01Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-06T16:07:13Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Add Teriff Plans feature test]]>
+                <![CDATA[Add Teriff Plan to Customer feature test]]>
               </value>
             </param>
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-1035O1U', ip: '192.168.29.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Rajeev\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: cb94810742311053ec167bb1296120a1]]>
+              <![CDATA[java.lang.NullPointerException]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-1035O1U', ip: '192.168.29.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Rajeev\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: cb94810742311053ec167bb1296120a1
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.NullPointerException
 at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 at runner.TestRunner.feature(TestRunner.java:46)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -100,40 +88,27 @@ at org.testng.TestNG.run(TestNG.java:1017)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=85.0.4183.121)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-1035O1U', ip: '192.168.29.70', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.121, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\Rajeev\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:61254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: cb94810742311053ec167bb1296120a1
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-at sun.reflect.GeneratedMethodAccessor7.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy18.click(Unknown Source)
-at pages.AddTeriffPlanToCustomer.clickOnRadioButton(AddTeriffPlanToCustomer.java:76)
-at stepDefinitions.AddTeriffPlantoCustomerSteps.select_the_radio_button_and_click_on_add_teriff_plan_to_customer_button(AddTeriffPlantoCustomerSteps.java:100)
-at ✽.Then select the radio button and click on add teriff plan to customer button(4addTeriffPlanToCustomer.feature:12)
+Caused by: java.lang.NullPointerException
+at stepDefinitions.AddTeriffPlantoCustomerSteps.click_on_left_three_bar_icon(AddTeriffPlantoCustomerSteps.java:39)
+at ✽.When click on left three bar icon(4addTeriffPlanToCustomer.feature:7)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@69930714]" name="tearDownClass" is-config="true" duration-ms="109" started-at="2020-10-05T16:48:15Z" finished-at="2020-10-05T16:48:15Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@69930714]" name="feature" duration-ms="43344" started-at="2020-10-06T16:07:13Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-06T16:07:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Pay Billing feature test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@69930714]" name="tearDownClass" is-config="true" duration-ms="181" started-at="2020-10-06T16:07:57Z" finished-at="2020-10-06T16:07:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

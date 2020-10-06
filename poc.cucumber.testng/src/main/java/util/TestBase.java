@@ -23,7 +23,7 @@ public class TestBase {
 			
 		try {
 			prop = new Properties();
-			FileInputStream	fis = new FileInputStream("F:\\ws_1\\poc.cucumber.testng\\src\\main\\java\\config\\config.properties");
+			FileInputStream	fis = new FileInputStream("..\\poc.cucumber.testng\\src\\main\\java\\config\\config.properties");
 			try {
 				prop.load(fis);
 			} catch (IOException e) {
